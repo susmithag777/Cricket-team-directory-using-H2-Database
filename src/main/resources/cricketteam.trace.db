@@ -1,0 +1,6 @@
+2023-03-08 07:27:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found; SQL statement:
+select * from book where playerid =? [42102-214]
+2023-03-08 07:59:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from  [*]where playerName=? and jerseyNumber=? and role=?"; expected "identifier"; SQL statement:
+select * from  where playerName=? and jerseyNumber=? and role=? [42001-214]

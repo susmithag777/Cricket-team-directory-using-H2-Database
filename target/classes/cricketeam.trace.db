@@ -1,0 +1,3 @@
+2023-03-08 07:05:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEAM" not found (this database is empty); SQL statement:
+SELECT * FROM TEAM [42104-214]
